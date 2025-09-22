@@ -1,0 +1,17 @@
+import React from 'react';
+import UploadDocument from './components/UploadDocument.js';
+import VerifyDocument from './components/VerifyDocument.js';
+import TriggerPayment from './components/TriggerPayment.js';
+
+const App = () => {
+    return (
+        <div>
+            <h1>Blockchain Supply Chain System</h1>
+            <UploadDocument />
+            <VerifyDocument />
+            <TriggerPayment />
+        </div>
+    );
+};
+
+export default App;
